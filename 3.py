@@ -1,6 +1,6 @@
 import requests
-url = "https://scratch.mit.edu/accounts"
-login_url = url+"/login/"
+url = "http://localhost/Hack_Me"
+login_url = url+"/api/Login.php"
 arquivo = "junior.txt"
 usuario = "junior"
 def request(username, password):
