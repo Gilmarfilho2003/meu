@@ -10,8 +10,9 @@ def request(user, password):
         print("Nao foi possivel achar a senha!!")
     else:
         print("A senha e: "+user + " | "+ password)
-        wordlist = open(arquivo, "junior.txt")
-for i in wordlist:junior.txt
+        
+wordlist = open(arquivo, "r")
+for i in wordlist:
     print("Testando "+ usuario + " || " + i)
     request(usuario,i)
     print("===============================")
