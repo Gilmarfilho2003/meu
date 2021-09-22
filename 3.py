@@ -11,7 +11,7 @@ def request(user, password):
     else:
         print("A senha e: "+user + " | "+ password)
         wordlist = open(arquivo, "junior.txt")
-for i in wordlist:
+for i in wordlist:junior.txt
     print("Testando "+ usuario + " || " + i)
     request(usuario,i)
     print("===============================")
